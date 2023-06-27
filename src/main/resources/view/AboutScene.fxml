@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane minHeight="400.0" minWidth="520.0" prefHeight="400.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep10.editor.controller.AboutSceneController">
+   <children>
+      <Label alignment="CENTER" layoutX="225.0" layoutY="36.0" style="-fx-background-color: LightGrey;" text="About Us" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="25.0">
+         <font>
+            <Font name="Ubuntu Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="225.0" layoutY="117.0" text="TD TeEditor 1.0.0" textFill="#13bf8e" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="180.0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="100.0" layoutY="239.0" prefWidth="400.0" text="Credits: Tharuka Devinda Waththegedara" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="240.0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="100.0" fitWidth="150.0" layoutX="210.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="210.0" AnchorPane.rightAnchor="210.0" AnchorPane.topAnchor="75.0">
+         <image>
+            <Image url="@../icons/text-editor.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="100.0" layoutY="297.0" prefWidth="400.0" text="Copyrights 2023 IJSE Dep-10" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="270.0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutY="210.0" prefHeight="16.0" prefWidth="520.0" text="TD Text Editor is a small &amp; light weight text editing desktop application." AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="210.0" />
+      <Label alignment="CENTER" layoutY="305.0" prefHeight="16.0" prefWidth="520.0" text="This app comes with absolutely no warrenty." AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="300.0" />
+      <HBox alignment="CENTER" layoutX="26.0" layoutY="336.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="340.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="Contact:" />
+            <Hyperlink text="linkedin.com/in/tharuka-waththegedara-a45660170" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
